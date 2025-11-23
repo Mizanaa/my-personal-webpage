@@ -276,7 +276,7 @@ section, footer{
 
 .imageportfolio img:hover {
     filter: grayscale(0.1);
-    transform: scale(1.03);
+    transform: scale(10);
 }
 
 #certificatespage{
@@ -310,7 +310,7 @@ section, footer{
 
 .imagecert img:hover{
     filter: grayscale(0.1);
-    transform: scale(1.03);
+    transform: scale(10);
 }
 
 
@@ -422,4 +422,5 @@ img{
     gap: 1px;
     justify-content: center;
 }
+
 
