@@ -30,7 +30,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .logo{
-    margin-left: 0; padding-left: 3%;
+    margin-left: 0; 
+    padding-left: 3%;
     font-size: 45px;
     font-family: 'Segoe UI';
     font-weight: 900;
@@ -43,8 +44,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #aboutpage, #portfoliopage, #certificatespage, #socialspage{
-    /* Inherit width: 90%; and max-width: 1900px; */
-    margin: auto; /* Ensure the section container itself is centered */
+    margin: auto; 
 }
 
 .menu{
@@ -222,8 +222,6 @@ section, footer{
     cursor: default;
 }
 
-
-
 .education{
     display: flex;
     flex-direction:column;
@@ -362,10 +360,9 @@ section, footer{
 }
 
 .modal-close:hover {
-    color: #415a77; /* Highlight color on hover */
+    color: #415a77; 
 }
 
-/* 6. The background layer acts as the second closing trigger */
 .modal-background {
     position: absolute;
     top: 0;
@@ -406,8 +403,6 @@ section, footer{
     filter: grayscale(0.1);
     transform: scale(1.07);
 }
-
-
 
 #socialspage{
     padding-top: 30px;
@@ -517,5 +512,10 @@ img{
     font-weight: 500;
     gap: 1px;
     justify-content: center;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #0d1b2a;
 }
 
